@@ -1,0 +1,11 @@
+iswitch(expression) {
+    case value1:
+        // Code block for value1
+        break;
+    case value2:
+        // Code block for value2
+        break;
+    default:
+        // Code block for default (optional)
+}
+
