@@ -23,4 +23,9 @@ Efficiency: A switch statement can be more efficient than multiple if-else state
 
 Fall-Through: In some languages, like C/C++, if you omit the break statement, the program will "fall through" and execute the next case even if it doesn't match. This behavior can be useful in some situations, but it can also lead to errors if not used carefully.
 
-Limited Flexibility: Some languages limit the types of values you can switch on (e.g., only integers, characters, or enumerated types)..
+Limited Flexibility: Some languages limit the types of values you can switch on (e.g., only integers, characters, or enumerated types).2. The break Statement:
+The break keyword is used to terminate the switch-case and prevent the execution from "falling through" to subsequent case blocks.
+
+If break is not included, the control will continue into the next case (this is called "fall-through").
+
+.
