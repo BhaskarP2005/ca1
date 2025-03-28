@@ -9,3 +9,12 @@ iswitch(expression) {
         // Code block for default (optional)
 }
 
+
+Explanation:
+expression: This is the value or variable that you want to check against the various cases.
+
+case value1: If the expression matches value1, the code block under this case is executed.
+
+break: This keyword exits the switch statement once the matching case block is executed. Without it, the code continues to the next case even if there is a match (a phenomenon called "fall-through").
+
+default: This block is optional. It runs if none of the specified cases match the expression.
