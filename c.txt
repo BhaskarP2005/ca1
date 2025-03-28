@@ -17,4 +17,10 @@ case value1: If the expression matches value1, the code block under this case is
 
 break: This keyword exits the switch statement once the matching case block is executed. Without it, the code continues to the next case even if there is a match (a phenomenon called "fall-through").
 
-default: This block is optional. It runs if none of the specified cases match the expression.
+default: This block is optional. It runs if none of the specified cases match the expression
+Key Points:
+Efficiency: A switch statement can be more efficient than multiple if-else statements, especially when dealing with a large number of conditions.
+
+Fall-Through: In some languages, like C/C++, if you omit the break statement, the program will "fall through" and execute the next case even if it doesn't match. This behavior can be useful in some situations, but it can also lead to errors if not used carefully.
+
+Limited Flexibility: Some languages limit the types of values you can switch on (e.g., only integers, characters, or enumerated types)..
